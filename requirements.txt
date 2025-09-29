@@ -23,6 +23,7 @@ httpcore==1.0.9
 httptools==0.6.4
 httpx==0.28.1
 idna==3.10
+iniconfig==2.1.0
 itsdangerous==2.2.0
 Jinja2==3.1.6
 jiter==0.11.0
@@ -38,6 +39,7 @@ pdfminer.six==20250506
 pdfplumber==0.11.7
 pefile==2023.2.7
 pillow==11.3.0
+pluggy==1.6.0
 proxy_tools==0.1.0
 pycparser==2.22
 pydantic==2.11.9
@@ -53,6 +55,7 @@ PyQt6-Qt6==6.9.2
 PyQt6-WebEngine==6.9.0
 PyQt6-WebEngine-Qt6==6.9.2
 PyQt6_sip==13.10.2
+pytest==8.4.2
 python-dotenv==1.1.1
 python-multipart==0.0.20
 pythonnet==3.0.5
