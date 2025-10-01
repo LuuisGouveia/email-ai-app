@@ -5,6 +5,7 @@ import nltk
 from .ai_service import classify_and_reply
 from .nlp_utils import preprocess_text
 from fastapi.staticfiles import StaticFiles
+from fastapi.routing import APIRoute
 
 nltk.download("punkt")
 nltk.download("stopwords")
@@ -27,7 +28,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.mount("/", StaticFiles(directory="static", html=True), name="static")
+app.mount("/static", StaticFiles(directory="static", html=True), name="static")
+
 
 @app.get("/health")
 def healthcheck():
@@ -60,3 +62,14 @@ async def process_email(
             "categoria": categoria,
             "resposta" : resposta
         }
+
+
+
+@app.on_event("startup")
+def show_routes():
+    print("\n=== ROTAS REGISTRADAS ===")
+    for route in app.routes:
+        if hasattr(route, "methods"):
+            methods = ",".join(route.methods)
+            print(f"{route.path} -> {methods}")
+    print("=========================\n")

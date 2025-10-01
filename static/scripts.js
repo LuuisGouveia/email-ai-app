@@ -12,8 +12,10 @@ document.getElementById('emailForm').addEventListener('submit', async (e)=>{
         method: "POST",
         body: formData
     });
+    console.log("Essa é a resposta:",res);
 
     const data = await res.json();
+    console.log("Esse é o data json: ", data);
     document.getElementById("categoria").textContent = data.categoria || "Erro";
     document.getElementById("resposta").textContent = data.resposta || "Não gerada";
 
