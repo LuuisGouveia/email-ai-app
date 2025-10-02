@@ -1,0 +1,2 @@
+saved_models/email_classifier/*.safetensors filter=lfs diff=lfs merge=lfs -text
+saved_models/email_classifier/*.pt filter=lfs diff=lfs merge=lfs -text
