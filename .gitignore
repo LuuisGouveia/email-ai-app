@@ -1,0 +1,67 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+ENV/
+env/
+.venv/
+
+# ----------------------------
+# Jupyter / IPython
+# ----------------------------
+.ipynb_checkpoints
+
+# ----------------------------
+# Byte-compiled / C extensions
+# ----------------------------
+*.so
+
+# ----------------------------
+# Distribution / Packaging
+# ----------------------------
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# ----------------------------
+# PyInstaller
+# ----------------------------
+*.manifest
+*.spec
+
+# ----------------------------
+# Logs
+# ----------------------------
+logs/
+*.log
+
+# ----------------------------
+# Transformers / Models / Checkpoints
+# ----------------------------
+saved_models/
+training/emails_test.csv
+training/emails.csv
+
+# ----------------------------
+# OS / IDE
+# ----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------
+# Others
+# ----------------------------
+*.tmp
+*.bak
+*.swp
