@@ -6,13 +6,14 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipe
 
 model_name = "luuisgouveia/email-classifier"
 
-model = AutoModelForSequenceClassification.from_pretrained(model_name)
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=True)
+model = AutoModelForSequenceClassification.from_pretrained(model_name, use_auth_token=True)
 
 
-hf_token = os.getenv("HF_TOKEN")
-if hf_token:
-    login(token=hf_token)
+# hf_token = os.getenv("HF_TOKEN")
+# if hf_token:
+#     login(token=hf_token)
 
 classifier = pipeline(
     "text-classification",
