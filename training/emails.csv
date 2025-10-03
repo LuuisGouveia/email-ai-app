@@ -1,4 +1,204 @@
 text,label
+"Olá equipe, não consigo acessar o sistema. Minha senha não está funcionando. Poderiam me ajudar a redefinir?",Produtivo
+"Oi, com a mudança no processo de aprovação de projetos, preciso saber a quem devo encaminhar o formulário agora.",Produtivo
+"Prezados, estamos finalizando o escopo e gostaríamos de solicitar um orçamento detalhado para o projeto de automação que discutimos.",Produtivo
+"Estou disponível amanhã às 14h para a reunião de alinhamento. Favor confirmar a pauta.",Produtivo
+"Gostaria de um status atualizado do meu caso de suporte. Já se passaram dois dias desde a última resposta.",Produtivo
+"Nossa empresa está interessada em uma parceria. Gostaria de agendar uma conversa para apresentarmos nossa proposta.",Produtivo
+"Olá, o botão de 'salvar' na nova ferramenta não está funcionando corretamente. É um bug?",Produtivo
+"Por favor, confirme o recebimento do meu pedido e o prazo de entrega.",Produtivo
+"Envio anexo o formulário de solicitação de férias para o período de 15/12 a 29/12.",Produtivo
+"Precisamos adiantar a entrega da fase 2. Seria possível reorganizar o cronograma?",Produtivo
+"Recebi um erro ao tentar processar o pagamento. Poderiam verificar o que aconteceu?",Produtivo
+"Gostaria de confirmar a entrevista para a vaga de marketing amanhã às 10h. Qual sala?",Produtivo
+"Anexei a versão 3.0 do documento. Por favor, revisem e me enviem o feedback até o final do dia.",Produtivo
+"A aprovação do projeto 'Y' foi encaminhada ao diretor. Existe alguma previsão de resposta?",Produtivo
+"A fatura deste mês veio com um valor diferente do esperado. Poderiam me explicar os detalhes da cobrança?",Produtivo
+"Tive a ideia de adicionar uma nova funcionalidade ao painel de controle. Poderia agendar uma conversa para discutir?",Produtivo
+"Precisamos de mais uma licença para o software de edição de vídeo. Qual o procedimento para a compra?",Produtivo
+"Estou com dificuldade em gerar o relatório mensal de vendas. Pode me ajudar com o passo a passo?",Produtivo
+"Gostaria de confirmar se os dados de contato do cliente João Silva estão corretos em nosso sistema.",Produtivo
+"Para a reunião de amanhã, gostaria de incluir o tópico sobre a migração de servidores. É possível?",Produtivo
+"Qual o prazo máximo para solicitar o reembolso de um produto?",Produtivo
+"Anexei o design da nova landing page. Por favor, dê sua aprovação final para seguirmos.",Produtivo
+"Gostaria de saber como posso me inscrever para o evento da próxima semana.",Produtivo
+"O formulário de contato do site não está enviando as mensagens. Recebi um alerta de erro.",Produtivo
+"Anexei a planilha de reembolso das despesas da viagem. Quando o valor será depositado?",Produtivo
+"Gostaria de saber mais sobre as especificações do modelo X e a disponibilidade em estoque.",Produtivo
+"Por favor, adicione a nova colaboradora, Ana, aos grupos de e-mail do projeto.",Produtivo
+"Meu telefone de contato mudou. O novo número é (XX) XXXX-XXXX.",Produtivo
+"Você pode me enviar a apresentação que foi feita na última reunião? Eu não pude comparecer.",Produtivo
+"O cliente pediu para agendar uma reunião na próxima semana. Quando você está disponível?",Produtivo
+"Olá, o relatório de performance não está gerando dados dos últimos 3 meses.",Produtivo
+"Não estou conseguindo fazer a integração entre o sistema A e o sistema B. Poderia me ajudar?",Produtivo
+"Conforme solicitado, anexo os documentos para a finalização do contrato.",Produtivo
+"A postagem para as redes sociais está pronta. Por favor, revise e aprove.",Produtivo
+"Qual o próximo passo após a aprovação do design? Devo encaminhar para o desenvolvimento?",Produtivo
+"Precisamos de uma cotação para traduzir um manual técnico de 50 páginas.",Produtivo
+"Gostaria de saber se a empresa oferece algum treinamento sobre Python.",Produtivo
+"O cliente está com um problema no equipamento e precisa de uma visita técnica.",Produtivo
+"Por favor, revise o contrato antes do envio final. Anexei a versão mais recente.",Produtivo
+"A fatura veio com o nome da empresa errado. Poderiam corrigir e reenviar?",Produtivo
+"Não consigo acessar a pasta compartilhada no Google Drive.",Produtivo
+"Preciso das credenciais para acessar o servidor FTP.",Produtivo
+"A nova funcionalidade de busca não está filtrando por data. É assim mesmo?",Produtivo
+"Poderia me passar o e-mail e telefone do gerente de projetos?",Produtivo
+"Por favor, confirme o agendamento para a instalação do equipamento na quinta-feira.",Produtivo
+"Você poderia gerar o relatório de acessos ao site do último trimestre?",Produtivo
+"Gostaríamos de adicionar 10 unidades a mais ao pedido de compra #12345.",Produtivo
+"Não consigo fazer o download do arquivo. Ele está corrompido.",Produtivo
+"Precisamos de uma cotação para um serviço de consultoria de marketing.",Produtivo
+"Os resultados do teste de usabilidade não fazem sentido. O que pode estar errado?",Produtivo
+"A impressora não está funcionando. Poderiam verificar?",Produtivo
+"Preciso de um backup dos dados do projeto X, pois faremos alterações.",Produtivo
+"Não poderei comparecer à reunião de amanhã. Podemos reagendar para a próxima semana?",Produtivo
+"Qual o limite de armazenamento na plataforma?",Produtivo
+"Minha conta de usuário precisa ser ativada no sistema novo.",Produtivo
+"Gostaria de mudar meu horário de trabalho para 8h às 17h. Qual o procedimento?",Produtivo
+"Meu pedido 123 está com o status 'pendente'. O que isso significa?",Produtivo
+"Você poderia me dar acesso ao repositório do projeto B?",Produtivo
+"Qual a previsão de entrega do pedido de suprimentos?",Produtivo
+"O botão 'finalizar compra' não está funcionando no site.",Produtivo
+"Gostaria de ser incluído na newsletter semanal da empresa.",Produtivo
+"Você pode me enviar o material de apoio sobre o novo sistema de CRM?",Produtivo
+"Preciso de uma nova licença para o software. Qual o custo?",Produtivo
+"Gostaria de alterar minha senha do sistema. Qual o procedimento?",Produtivo
+"Anexei o relatório de despesas da viagem. Por favor, processe o reembolso.",Produtivo
+"Gostaria de saber mais sobre os requisitos para a vaga de analista.",Produtivo
+"Qual a versão mais recente do software disponível para download?",Produtivo
+"Meu e-mail está com a caixa de entrada cheia e não consigo receber novas mensagens.",Produtivo
+"Precisamos de um orçamento para a organização do evento de final de ano.",Produtivo
+"Anexei o rascunho do artigo. Poderia fazer a revisão e me dar sua opinião?",Produtivo
+"Qual o próximo passo no processo de contratação?",Produtivo
+"Gostaria de agendar uma demonstração do seu produto para a próxima semana.",Produtivo
+"A internet está caindo a cada 10 minutos. Poderiam verificar?",Produtivo
+"Não recebi a nota fiscal do último pagamento. Poderia me enviar?",Produtivo
+"Qual a carga horária do curso e se existe certificado de conclusão?",Produtivo
+"A pesquisa está gerando resultados estranhos. Pode me ajudar a entender?",Produtivo
+"A imagem para o post está pronta. Poderia aprovar para que possamos publicar?",Produtivo
+"Não consigo me conectar à rede Wi-Fi da empresa.",Produtivo
+"Gostaria de confirmar minha presença na reunião de amanhã.",Produtivo
+"A promoção é válida para compras online e físicas?",Produtivo
+"Precisamos de mais flyers para o evento. Qual o procedimento para solicitar?",Produtivo
+"A cliente pediu para reagendar a visita para a próxima terça-feira.",Produtivo
+"A política de home office se aplica a todos os funcionários?",Produtivo
+"O site está fora do ar. Recebemos várias reclamações de clientes.",Produtivo
+"Precisamos corrigir o endereço do cliente no banco de dados.",Produtivo
+"Gostaria de saber o status do projeto X.",Produtivo
+"Qual o campo correto para inserir a data de validade?",Produtivo
+"Por favor, inclua meu e-mail no grupo de comunicação interna.",Produtivo
+"Precisamos de um treinamento para a equipe sobre o novo software.",Produtivo
+"Não consigo criar um novo chamado no sistema.",Produtivo
+"Você pode me enviar a apresentação que foi usada na última reunião?",Produtivo
+"A arte para a campanha está pronta. Por favor, aprove para que possamos seguir com a produção.",Produtivo
+"O servidor está com lentidão. Precisamos de uma avaliação urgente.",Produtivo
+"Meu novo telefone é XXXX-XXXX.",Produtivo
+"Qual o horário de atendimento para suporte técnico?",Produtivo
+"Preciso dos dados de vendas do último trimestre para o relatório.",Produtivo
+"O aplicativo está fechando sozinho no meu celular.",Produtivo
+"Como a nova funcionalidade de busca avançada funciona?",Produtivo
+"Gostaria de saber mais sobre a documentação da API.",Produtivo
+"Gostaria de agendar uma conversa para discutir meu reajuste salarial.",Produtivo
+"Olá, equipe! Feliz aniversário para o José! Tudo de bom para você!",Improdutivo
+"Apenas para seu conhecimento, aqui está o resumo da reunião de ontem. Não é necessária nenhuma ação.",Improdutivo
+"Seja muito bem-vindo, João! Esperamos que goste de trabalhar aqui.",Improdutivo
+"Obrigado pela sua ajuda com o projeto. Foi fundamental.",Improdutivo
+"Vi este artigo e achei que você poderia gostar. Ele fala sobre novas tendências de IA.",Improdutivo
+"Tenham todos um ótimo fim de semana!",Improdutivo
+"Entendido, obrigado pela informação.",Improdutivo
+"Apenas para informar que a nossa empresa foi destaque na revista X.",Improdutivo
+"Parabéns pelo excelente trabalho!",Improdutivo
+"Convite para o happy hour da equipe na próxima sexta. Compareça se puder!",Improdutivo
+"Só para lembrar que o café da manhã mensal será na sexta-feira.",Improdutivo
+"Feliz Natal e um próspero Ano Novo!",Improdutivo
+"Leia a nossa newsletter semanal para ficar por dentro das novidades.",Improdutivo
+"Confira a lista dos aniversariantes do mês de outubro!",Improdutivo
+"Obrigado por nos enviar seu feedback.",Improdutivo
+"Estou fora do escritório e retornarei no dia 15/10.",Improdutivo
+"Encontrei esta piada e achei que poderia alegrar o seu dia.",Improdutivo
+"Me desculpe pelo e-mail anterior, houve um engano.",Improdutivo
+"Se precisar de ajuda com qualquer coisa, é só chamar.",Improdutivo
+"Pensando em você, encontrei estas dicas de produtividade.",Improdutivo
+"Confirmo minha presença no happy hour.",Improdutivo
+"Bem-vindo, Pedro!",Improdutivo
+"Sei que você vai arrasar na apresentação de amanhã!",Improdutivo
+"Boa sorte com o novo projeto!",Improdutivo
+"Estou de volta e com as energias recarregadas!",Improdutivo
+"Olha a foto do evento da semana passada. Ficou ótima!",Improdutivo
+"Apenas para avisar que já estou a caminho da reunião.",Improdutivo
+"Você fez um trabalho incrível com essa apresentação!",Improdutivo
+"Só para te dizer que o documento está na sua mesa.",Improdutivo
+"Aproveitem o feriado prolongado!",Improdutivo
+"Assista a este vídeo motivacional, é muito bom!",Improdutivo
+"Foi um prazer trabalhar com você, sucesso na sua nova jornada!",Improdutivo
+"Não se esqueça do nosso almoço na quinta-feira.",Improdutivo
+"Recebi o seu e-mail, obrigado.",Improdutivo
+"O relatório foi gerado. Não é necessário fazer nada.",Improdutivo
+"Sinto muito, o e-mail anterior foi enviado duas vezes.",Improdutivo
+"Obrigado por sua atenção.",Improdutivo
+"Gostei muito da apresentação, estava bem organizada.",Improdutivo
+"Obrigado por ter me indicado para a vaga.",Improdutivo
+"Encontrei esta receita de bolo e lembrei de você!",Improdutivo
+"Seu perfil foi atualizado.",Improdutivo
+"Oi, tudo bem?",Improdutivo
+"Achei este meme engraçado, confira!",Improdutivo
+"Desculpe-me pela demora em responder.",Improdutivo
+"Foi um prazer trabalhar com a equipe.",Improdutivo
+"Seja bem-vindo ao time, Pedro!",Improdutivo
+"Parabéns a todos pelos 5 anos de empresa!",Improdutivo
+"Encontrei este link interessante sobre o nosso setor.",Improdutivo
+"Obrigado pela sua mensagem.",Improdutivo
+"O backup do sistema foi concluído com sucesso.",Improdutivo
+"Ótimo trabalho na última reunião!",Improdutivo
+"Agradeço a oportunidade de ter trabalhado no projeto.",Improdutivo
+"Boas férias a todos!",Improdutivo
+"Me adicione no LinkedIn.",Improdutivo
+"Feliz 2024!",Improdutivo
+"O sistema foi atualizado para a nova versão.",Improdutivo
+"Você é um grande profissional.",Improdutivo
+"Leia este artigo sobre produtividade.",Improdutivo
+"Atenciosamente, [Seu Nome].",Improdutivo
+"Ok, obrigado.",Improdutivo
+"O status do seu chamado foi alterado para 'Concluído'.",Improdutivo
+"Olha que fofinho este vídeo!",Improdutivo
+"Parabéns pela promoção!",Improdutivo
+"Obrigado por me lembrar!",Improdutivo
+"O projeto foi concluído.",Improdutivo
+"Tenha um ótimo dia!",Improdutivo
+"Sua senha foi alterada com sucesso.",Improdutivo
+"Este meme me fez lembrar de você.",Improdutivo
+"Obrigado pela sua gentil mensagem.",Improdutivo
+"Não é necessária uma resposta a este e-mail.",Improdutivo
+"Você consegue!",Improdutivo
+"A reunião foi cancelada.",Improdutivo
+"Obrigado, sua ajuda foi muito importante.",Improdutivo
+"Ouvi este podcast e lembrei do nosso projeto.",Improdutivo
+"Parabéns a todos pelo sucesso do evento!",Improdutivo
+"Sua encomenda foi entregue.",Improdutivo
+"Tchau, foi um prazer!",Improdutivo
+"Aproveitem o feriado!",Improdutivo
+"Vamos em frente!",Improdutivo
+"Seu pagamento foi processado com sucesso.",Improdutivo
+"Obrigado pela indicação.",Improdutivo
+"O seu trabalho está impecável.",Improdutivo
+"Olha só que lugar lindo!",Improdutivo
+"Boas festas a todos!",Improdutivo
+"O relatório de vendas está disponível para visualização.",Improdutivo
+"Obrigado pelo conselho, foi muito útil.",Improdutivo
+"Fico no aguardo, atenciosamente.",Improdutivo
+"Foi um prazer trabalhar com você, ótimo trabalho!",Improdutivo
+"Seu login foi efetuado com sucesso.",Improdutivo
+"Obrigado por me enviar.",Improdutivo
+"Conte comigo!",Improdutivo
+"Este artigo é muito divertido.",Improdutivo
+"Seja bem-vindo, novo colega.",Improdutivo
+"O relatório foi enviado.",Improdutivo
+"Apenas para te dizer que estou no escritório.",Improdutivo
+"Muito obrigado pela sua ajuda.",Improdutivo
+"Encontrei esta notícia sobre o setor e achei que seria relevante.",Improdutivo
+"Nos vemos na próxima semana!",Improdutivo
+"O trabalho em equipe foi excelente.",Improdutivo
+"Recebido.",Improdutivo
 "Prezado Time de Produto, a nova regra de validação no formulário de checkout está rejeitando cartões de débito de bandeiras internacionais que antes eram aceitos. Isso resultou em 12% de abandono de carrinho nas últimas 3 horas, conforme o relatório do Google Analytics anexo. Precisamos de um rollback imediato ou um ajuste na whitelist de BINs. Qual a estimativa para a correção?",Produtivo
 "Olá [Nome do Cliente], recebemos sua notificação sobre a falha na sincronização de dados entre a API e o nosso painel de controle. Para investigar, precisamos urgentemente dos logs de erro do seu servidor das últimas 24 horas e o ID da requisição que falhou. Sem esses dados, não conseguiremos isolar o problema. Favor encaminhar a documentação técnica o mais breve possível.",Produtivo
 "Caros fornecedores, a NF-e n° 45678 referente ao serviço de consultoria de Março/2025 está com o código de serviço incorreto, o que está bloqueando o pagamento pelo setor fiscal. Solicitamos que a nota seja cancelada e uma nova seja emitida até o fim do dia de hoje com o código 01.05 (Licenciamento ou cessão de direito de uso de programas de computação). Por favor, confirmem o reenvio.",Produtivo

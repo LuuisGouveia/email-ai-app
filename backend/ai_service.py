@@ -4,8 +4,8 @@ from transformers import pipeline
 
 classifier = pipeline(
     "text-classification",
-    model="./saved_models/email_classifier",
-    tokenizer="./saved_models/email_classifier"
+    model="luuisgouveia/email-classifier",
+    tokenizer="luuisgouveia/email-classifier"
 )
 
 
