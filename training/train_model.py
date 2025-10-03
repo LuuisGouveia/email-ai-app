@@ -64,7 +64,7 @@ trainer = Trainer(
 trainer.train()
 
 
-model.save_pretrained("./saved_models/email_classifier")  # PyTorch .bin padrão
+model.save_pretrained("./saved_models/email_classifier") 
 tokenizer.save_pretrained("./saved_models/email_classifier")
 
 

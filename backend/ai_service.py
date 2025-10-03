@@ -27,11 +27,11 @@ def classify_and_reply(text: str):
     label = result['label']
 
 
-    if label == "LABEL_0": 
-        categoria = "Produtivo"
+    categoria = label
+
+    if categoria == "Produtivo":
         resposta = random.choice(produtivo_templates).format(text[:50])
     else:
-        categoria = "Improdutivo"
         resposta = random.choice(improdutivo_templates)
 
     return categoria, resposta
