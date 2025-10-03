@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: email-classifier-api
+    plan: free
+    envVars:
+      - key: HF_TOKEN
+        sync: false
