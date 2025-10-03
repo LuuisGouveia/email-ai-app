@@ -1,11 +1,23 @@
 import random
 from transformers import pipeline
+import os
+from huggingface_hub import login
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 
+model_name = "luuisgouveia/email-classifier"
+
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+
+hf_token = os.getenv("HF_TOKEN")
+if hf_token:
+    login(token=hf_token)
 
 classifier = pipeline(
     "text-classification",
-    model="luuisgouveia/email-classifier",
-    tokenizer="luuisgouveia/email-classifier"
+    model=model,
+    tokenizer=tokenizer
 )
 
 
