@@ -1,25 +1,32 @@
+# Exemplo de como você pode reestruturar o carregamento do modelo:
+
 import random
-from transformers import pipeline
 import os
-from huggingface_hub import login
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 
 model_name = "luuisgouveia/email-classifier"
+CLASSIFIER = None
 
+def get_classifier():
+    
+    global CLASSIFIER
 
-tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=True)
-model = AutoModelForSequenceClassification.from_pretrained(model_name, use_auth_token=True)
+    if CLASSIFIER is None:
+        print("--- Carregando modelo na memória pela primeira vez... ---")
+        
+        tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=os.getenv("HF_TOKEN"))
+        model = AutoModelForSequenceClassification.from_pretrained(model_name, use_auth_token=os.getenv("HF_TOKEN"))
+        
+       
+        CLASSIFIER = pipeline(
+            "text-classification",
+            model=model,
+            tokenizer=tokenizer
+        )
+        print("--- Modelo carregado com sucesso. ---")
+    
+    return CLASSIFIER
 
-
-# hf_token = os.getenv("HF_TOKEN")
-# if hf_token:
-#     login(token=hf_token)
-
-classifier = pipeline(
-    "text-classification",
-    model=model,
-    tokenizer=tokenizer
-)
 
 
 produtivo_templates = [
@@ -35,11 +42,13 @@ improdutivo_templates = [
 ]
 
 def classify_and_reply(text: str):
-
+    
+    classifier = get_classifier() 
+    
     result = classifier(text)[0]
     label = result['label']
-
-
+    
+    
     categoria = label
 
     if categoria == "Produtivo":
@@ -48,3 +57,4 @@ def classify_and_reply(text: str):
         resposta = random.choice(improdutivo_templates)
 
     return categoria, resposta
+
