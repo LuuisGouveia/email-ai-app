@@ -8,20 +8,18 @@ from transformers import (
 )
 from huggingface_hub import login
 
-# 🔹 Login no Hugging Face (use seu token)
-# dica: se já fez `huggingface-cli login`, pode comentar essa linha
 login(token="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")
 
-# Cria pasta de salvamento
+
 os.makedirs("./saved_models/email_classifier", exist_ok=True)
 
-# 🔹 Carregar dataset
+
 dataset = load_dataset("csv", data_files={
     "train": "training/emails.csv",
     "test": "training/emails_test.csv"
 })
 
-# 🔹 Mapear labels
+
 label_map = {"Produtivo": 0, "Improdutivo": 1}
 id2label = {0: "Produtivo", 1: "Improdutivo"}
 
@@ -31,7 +29,7 @@ def encode_labels(batch):
 
 dataset = dataset.map(encode_labels)
 
-# 🔹 Tokenizer
+
 tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 
 def tokenize(batch):
@@ -39,7 +37,7 @@ def tokenize(batch):
 
 dataset = dataset.map(tokenize, batched=True)
 
-# 🔹 Modelo
+
 model = AutoModelForSequenceClassification.from_pretrained(
     "distilbert-base-uncased",
     num_labels=2,
@@ -47,7 +45,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
     label2id=label_map
 )
 
-# 🔹 Configurações de treino
+
 training_args = TrainingArguments(
     output_dir="./saved_models/email_classifier",
     num_train_epochs=3,
@@ -63,7 +61,7 @@ training_args = TrainingArguments(
     save_strategy="epoch"
 )
 
-# 🔹 Trainer
+
 trainer = Trainer(
     model=model,
     args=training_args,
@@ -71,17 +69,16 @@ trainer = Trainer(
     eval_dataset=dataset["test"],
 )
 
-# 🔹 Treinar
 trainer.train()
 
-# 🔹 Salvar localmente
+
 model.save_pretrained("./saved_models/email_classifier")
 tokenizer.save_pretrained("./saved_models/email_classifier")
 
 print("✅ Treinamento finalizado e modelo salvo em ./saved_models/email_classifier")
 
-# 🔹 Fazer push direto para o Hugging Face Hub
-repo_id = "luuisgouveia/email-classifier"  # seu repositório no Hub
+
+repo_id = "luuisgouveia/email-classifier"
 model.push_to_hub(repo_id)
 tokenizer.push_to_hub(repo_id)
 
