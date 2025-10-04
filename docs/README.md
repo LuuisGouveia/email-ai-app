@@ -17,4 +17,6 @@ A aplicação é simples e é necessário apenas o python instalado previamente,
 
 Deploy:
 
-O deploy do Back-end foi feito no render utilizando plano gratuito e está totalmente funcional, enquanto o deploy do front-end foi feito no Github Pages, também totalmente funcional.
+O deploy foi realizado porém houve complicações devido ao tamanho do modelo de IA do hugging face que ultrapassa o limite permitido pelo Render no plano gratuito, o deploy é feito e fica no ar porém não consegue processar as requisções quando aciona o modelo de IA.
+Link do deploy Back-end:https://ai-email-process.onrender.com
+Link do deploy Front-end:https://luuisgouveia.github.io/email-ai-app/
