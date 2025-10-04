@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Processamento de Emails</title>
+</head>
+<body>
+    <div id="container" class="container">
+        
+        <form method="post" id="emailForm">
+            <h1>FORMULARIO DE PROCESSAMENTO DE EMAILS:</h1>
+            <div class="box">
+                <input type="text" id="sender" placeholder="exemplo@exemplo.com">
+            </div>
+           <div class="box">
+                <input type="file" id="fileInput">
+           </div>
+            <div class="box">
+                <label for="textInput">Escreva seu email:</label>
+                <textarea name="minha_caixa_texto" rows="5" cols="30" id="textInput">
+                </textarea>
+            </div>
+            <div class="box">
+                <button type="submit" id="btnSubmit">Enviar</button>
+            </div>
+        </form>
+        <div id="results" class="hidden">
+            <h2>Resultado</h2>
+            <p><b>Categoria:</b> <span id="categoria"></span></p>
+            <p><b>Resposta sugerida:</b></p>
+            <div id="resposta"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
