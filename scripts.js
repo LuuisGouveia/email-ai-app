@@ -8,7 +8,7 @@ document.getElementById('emailForm').addEventListener('submit', async (e)=>{
     if (text) formData.append("text", text);
     if (file) formData.append("file", file);
 
-    const res = await fetch(" https://ai-email-process.onrender.com/process-email", {
+    const res = await fetch("https://ai-email-process.onrender.com/process-email", {
         method: "POST",
         body: formData
     });
